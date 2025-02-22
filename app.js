@@ -2,6 +2,8 @@ const express = require("express");
 const dotEnv = require("dotenv");
 const mongoose = require("mongoose");
 
+const userRoutes = require("./routes/userRoutes");
+
 const app = express();
 
 //  built-in middle ware for parse
@@ -21,3 +23,5 @@ mongoose
     });
   })
   .catch((err) => console.log(err));
+
+app.use("/user", userRoutes);
