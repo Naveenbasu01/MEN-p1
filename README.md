@@ -31,4 +31,4 @@ This is a back-end web application built using the Mongo-Express-Node stack. It 
 1. **Clone the repository**:
 
    ```bash
-   git clone <repo-url>
+   git clone (https://github.com/Naveenbasu01/MEN-p1.git)
